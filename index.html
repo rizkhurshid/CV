@@ -6,7 +6,38 @@
         <meta charset="utf-8" name="author" />
         <meta name="author" content="Riz Khurshid" />
         <meta name="description" content="First page learning everything from scratch" /> <!-- this come in the search engine description-->
-        <title>🥾Riz Personal Page</title>
+        <title>🥾 Riz Personal Page</title>
+
+        <style>
+        /*https://colorhunt.co/palette/219763*/
+          body {
+            background-color: #fcf8ec;
+            color:#456268;
+            font-family: system-ui;
+          }
+
+          h1,h3 {
+            color:#583d72;
+          }
+
+          hr{
+            border-style: dashed;
+            border-width: thin;
+            border-color: #03506f;
+          }
+
+          .experience td{
+            vertical-align: top;
+            min-width: 150px;
+          }
+
+          .footer{
+            background-color: #ffe3d8;
+            padding: 10px;
+          }
+
+        </style>
+
       </head>
 
       <body>
@@ -26,7 +57,7 @@
             </tr>
           </tbody>
         </table>
-        <hr size="1" noshade />
+        <hr />
         <h3>Expertise</h3>
         <table>
           <tbody>
@@ -50,16 +81,16 @@
             </tr>
           </tbody>
         </table>
-        <hr size="1" noshade />
+        <hr />
         <h3>Experience</h3>
         <table>
-          <thead>
+    <!--      <thead>
             <tr>
               <th>Duration</th>
               <th>Experience</th>
             </tr>
-          </thead>
-          <tbody>
+          </thead>-->
+          <tbody class=experience>
             <tr>
               <td><strong>Jun 2017 – Current</strong></td>
               <td><strong>Walgreens</strong><em> – Deerfield, IL</em>
@@ -86,8 +117,7 @@
 
             <tr>
               <td><strong>July 2015 – Current</strong></td>
-              <td>
-                <hr /><strong>Tribune Media</strong><em> – Chicago, IL</em>
+              <td><strong>Tribune Media</strong><em> – Chicago, IL</em>
                 <br /><br /><strong>Independent Contractor – Business Analytics Architect (Feb 2018 – Current)</strong>
                 <ul>
                   <li>Recruited as an independent contractor (<10 hours/week) to advise on data and SharePoint projects to streamline technology integration for potential acquisition based on previous successful experience as full-time employee</li>
@@ -105,7 +135,9 @@
           <tfoot></tfoot>
         </table>
 
-        <a href="hobbies.html">My Hobbies</a> | <a href="contact.html">Contact Me</a>
+        <div class="footer">
+          <a href="hobbies.html">My Hobbies</a> | <a href="contact.html">Contact Me</a>
+        </div>
 
       </body>
 
